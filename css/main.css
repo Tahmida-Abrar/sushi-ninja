@@ -45,3 +45,21 @@ a:hover {
   background-color: orange;
   color: white !important;
 }
+
+.slide-1 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+    url(../assets/images/slider-image-1.jpg);
+}
+.slide-2 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+    url(../assets/images/slider-image-2.png);
+}
+.slide-3 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+    url(../assets/images/slider-image-3.jpg);
+}
+.bg-cover {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
