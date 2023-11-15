@@ -28,6 +28,11 @@ a:hover {
   color: orangered !important;
 }
 
+section {
+  padding: 5rem 0;
+}
+
+/* BUTTON */
 .btn {
   padding: 1rem 2rem;
   border-radius: 100px;
@@ -58,8 +63,21 @@ a:hover {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
     url(../assets/images/slider-image-3.jpg);
 }
+
 .bg-cover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.about-img {
+  border-radius: 100px 0 100px 0;
+}
+
+.orange-line {
+  background-color: orangered;
+  height: 2px;
+  width: 5rem;
+  display: inline-block;
+  margin-bottom: 1rem;
 }
